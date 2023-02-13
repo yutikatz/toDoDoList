@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sun-style.css">
+</head>
+
+<body>
+    <div class="img">
+        <div class="main">
+            <div class="wrap-sun">
+                <h1>TO DO</h1>
+                <div class="sun" onclick="dark()"></div>
+            </div>
+            <div class="black-line input-line">
+                <div class="circle"></div>
+                <input type="text" class="text" name="text" onkeydown="addTodo(event)"
+                    placeholder="Create a new to do..."></input>
+            </div>
+            <div class="all-to-do">
+
+            </div>
+            <div class="flex gray"></div>
+            <div class="gray drag">Drag and drop to reorder list</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
